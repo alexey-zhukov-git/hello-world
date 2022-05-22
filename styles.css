@@ -1,0 +1,173 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f7f9;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    height: 100px;
+    padding: 0 40px;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fixed-container {
+    max-width: 1000px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+p {
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.first-block {
+    height: 400px;
+    margin: 20px;
+}
+
+.first-block > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('img/man.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+
+.services > div {
+    width: 200px;
+}
+
+.services img {
+    width: 150px;
+}
+
+.works {
+    display: flex;
+    justify-content: space-between;
+}
+
+.works > div {
+    width: 300px;
+}
+
+.works img {
+    width: 300px;
+}
+
+.price-info {
+    background-color: #6500f5;
+    color: white;
+}
+
+.light-button {
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.dark-button {
+    background-color: #6500f5;
+    border: 1px solid #6500f5;
+    color: white;
+}
+
+button {
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.special {
+    width: 650px;
+}
+
+.social {
+    display:flex;
+    justify-content: space-between;
+}
+
+.social img {
+    height: 20px;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    padding: 40px;
+}
+
+.popup-container {
+    background-color: #000000b3;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.popup button, input {
+    margin-top: 15px;
+}
